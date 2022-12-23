@@ -8,7 +8,13 @@ ToyDB is a Key Value NoSQL database that supports popular Redis protocol. It is 
 
 - Supports basic Redis operation: PING, GET & SET
 - Uses locking to update data OR uses update data asynchronous in a single thread 
-- Might use RocksDB/SpeedDB for internal *LSM storage*
+- Pluggable database engine, might use RocksDB & in-memory
+
+## Non-goals
+
+- Transactions
+- SQL parser
+- MVCC
 
 ## References
 
