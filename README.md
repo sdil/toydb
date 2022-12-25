@@ -16,6 +16,7 @@ ToyDB is a Key Value NoSQL database that supports popular Redis protocol. It is 
 - SQL parser
 - MVCC
 - ACID compliance
+- User authentication
 
 ## References
 
